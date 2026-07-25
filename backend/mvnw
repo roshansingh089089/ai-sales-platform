@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+MVNW_VERSION=3.9.9
+MVNW_HOME="${HOME}/.m2/wrapper/dists/apache-maven-${MVNW_VERSION}"
+MVNW_BIN="${MVNW_HOME}/apache-maven-${MVNW_VERSION}/bin/mvn"
+if [ ! -x "$MVNW_BIN" ]; then
+  mkdir -p "$MVNW_HOME"
+  curl -fsSL "https://archive.apache.org/dist/maven/maven-3/${MVNW_VERSION}/binaries/apache-maven-${MVNW_VERSION}-bin.tar.gz" | tar -xz -C "$MVNW_HOME"
+fi
+exec "$MVNW_BIN" "$@"

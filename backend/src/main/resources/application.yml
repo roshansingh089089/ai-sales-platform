@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: ai-sales-platform-backend
+  config:
+    import:
+      - optional:file:../.env[.properties]
+      - optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:aisales}
+    username: ${DB_USERNAME:aisales}
+    password: ${DB_PASSWORD:aisales_local}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  flyway:
+    enabled: true
+server:
+  port: ${SERVER_PORT:8080}
+management:
+  endpoints.web.exposure.include: health,info
+app:
+  lead-discovery:
+    geoapify-api-key: ${GEOAPIFY_API_KEY:}
+    maximum-results-per-search: ${LEAD_DISCOVERY_MAX_RESULTS:20}
+    connection-timeout: ${LEAD_DISCOVERY_CONNECTION_TIMEOUT:5s}
+    read-timeout: ${LEAD_DISCOVERY_READ_TIMEOUT:5s}
