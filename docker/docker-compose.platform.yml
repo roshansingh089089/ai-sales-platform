@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_DB: ${DB_NAME:-aisales}
+      POSTGRES_USER: ${DB_USERNAME:-aisales}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-aisales_local}
+      LEAD_DB_NAME: ${LEAD_DB_NAME:-aisales_leads}
+      BUSINESS_DB_NAME: ${BUSINESS_DB_NAME:-aisales_businesses}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - ./postgres/init-multiple-databases.sh:/docker-entrypoint-initdb.d/10-init-multiple-databases.sh:ro
+  redis:
+    image: redis:8.0.3-alpine
+    ports:
+      - "${REDIS_PORT:-6379}:6379"

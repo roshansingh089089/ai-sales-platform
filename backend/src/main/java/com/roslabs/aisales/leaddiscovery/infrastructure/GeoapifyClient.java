@@ -7,4 +7,6 @@ public interface GeoapifyClient {
 
   List<GeoapifyPlacesResponse.Feature> places(
       String category, double latitude, double longitude, int radiusMeters, int maximumResults);
+
+  List<GeoapifyPlacesResponse.Feature> placeDetails(String placeId);
 }

@@ -1,0 +1,29 @@
+server:
+  port: ${LEAD_SERVICE_PORT:8081}
+spring:
+  application:
+    name: lead-service
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${LEAD_DB_NAME:aisales_leads}
+    username: ${DB_USERNAME:aisales}
+    password: ${DB_PASSWORD:aisales_local}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+lead:
+  automation:
+    base-url: ${AUTOMATION_SERVICE_URL:http://localhost:8090}
+    internal-token: ${INTERNAL_AUTOMATION_TOKEN:local-dev-token}
+    connection-timeout: ${AUTOMATION_CONNECTION_TIMEOUT:3s}
+    read-timeout: ${AUTOMATION_READ_TIMEOUT:10s}
+    max-attempts: ${AUTOMATION_DISPATCH_MAX_ATTEMPTS:3}
+  business-service:
+    base-url: ${BUSINESS_SERVICE_URL:http://localhost:8082}
+    connection-timeout: ${BUSINESS_SERVICE_CONNECTION_TIMEOUT:3s}
+    read-timeout: ${BUSINESS_SERVICE_READ_TIMEOUT:10s}
+    internal-token: ${INTERNAL_SERVICE_TOKEN:local-dev-token}
+  import:
+    max-file-size: ${LEAD_IMPORT_MAX_FILE_SIZE:5MB}

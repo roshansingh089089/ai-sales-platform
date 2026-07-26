@@ -17,6 +17,9 @@ spring:
       hibernate.jdbc.time_zone: UTC
   flyway:
     enabled: true
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/aisales}
 server:
   port: ${SERVER_PORT:8080}
 management:
@@ -24,6 +27,16 @@ management:
 app:
   lead-discovery:
     geoapify-api-key: ${GEOAPIFY_API_KEY:}
-    maximum-results-per-search: ${LEAD_DISCOVERY_MAX_RESULTS:20}
+    maximum-results-per-search: ${LEAD_DISCOVERY_MAX_RESULTS:100}
     connection-timeout: ${LEAD_DISCOVERY_CONNECTION_TIMEOUT:5s}
     read-timeout: ${LEAD_DISCOVERY_READ_TIMEOUT:5s}
+    geoapify-details-enrichment-enabled: ${GEOAPIFY_DETAILS_ENRICHMENT_ENABLED:true}
+    maximum-enrichment-requests-per-search: ${LEAD_DISCOVERY_MAX_ENRICHMENT_REQUESTS:20}
+  business-intelligence:
+    worker-enabled: ${BI_WORKER_ENABLED:true}
+    scheduler-enabled: ${BI_SCHEDULER_ENABLED:true}
+    search-cache-ttl: ${BI_SEARCH_CACHE_TTL:5m}
+    search-cache-max-entries: ${BI_SEARCH_CACHE_MAX_ENTRIES:250}
+    worker-batch-size: ${BI_WORKER_BATCH_SIZE:10}
+    max-attempts: ${BI_MAX_ATTEMPTS:3}
+    worker-poll-delay: ${BI_WORKER_POLL_DELAY:30s}

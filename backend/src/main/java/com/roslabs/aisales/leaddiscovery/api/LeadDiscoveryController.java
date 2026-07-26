@@ -27,7 +27,7 @@ public class LeadDiscoveryController {
       @NotBlank @Size(max = 120) String category,
       @NotBlank @Size(max = 200) String location,
       @NotNull @Min(100) @Max(50000) Integer radiusMeters,
-      @Min(1) @Max(20) Integer maximumResults,
+      @Min(1) @Max(100) Integer maximumResults,
       boolean phoneRequired,
       WebsiteFilter websiteFilter) {}
 

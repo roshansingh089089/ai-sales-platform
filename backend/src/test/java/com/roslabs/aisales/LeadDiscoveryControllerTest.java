@@ -62,7 +62,7 @@ class LeadDiscoveryControllerTest {
                       "category": "healthcare.dentist",
                       "location": "HSR Layout, Bangalore",
                       "radiusMeters": 5000,
-                      "maximumResults": 21,
+                      "maximumResults": 101,
                       "phoneRequired": false,
                       "websiteFilter": "ANY"
                     }
@@ -73,7 +73,7 @@ class LeadDiscoveryControllerTest {
 
   private static class StubLeadDiscoveryService extends LeadDiscoveryService {
     StubLeadDiscoveryService() {
-      super(null, null, null);
+      super(null, null);
     }
 
     @Override

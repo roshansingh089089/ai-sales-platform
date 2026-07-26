@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_DB: ${DB_NAME:-aisales}
+      POSTGRES_USER: ${DB_USERNAME:-aisales}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-aisales_local}
+      LEAD_DB_NAME: ${LEAD_DB_NAME:-aisales_leads}
+      BUSINESS_DB_NAME: ${BUSINESS_DB_NAME:-aisales_businesses}
+    ports: ["${DB_PORT:-5432}:5432"]
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/init-multiple-databases.sh:/docker-entrypoint-initdb.d/10-init-multiple-databases.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME:-aisales} -d ${DB_NAME:-aisales}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  redis:
+    image: redis:8.0.3-alpine
+    ports: ["${REDIS_PORT:-6379}:6379"]
+    volumes: [redis_data:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  mongo:
+    image: mongo:8.0
+    ports: ["${MONGODB_PORT:-27017}:27017"]
+    volumes: [mongo_data:/data/db]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  postgres_data:
+  redis_data:
+  mongo_data:

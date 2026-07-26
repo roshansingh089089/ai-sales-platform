@@ -1,0 +1,23 @@
+server:
+  port: ${GATEWAY_PORT:8080}
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: lead-service
+              uri: ${LEAD_SERVICE_URL:http://localhost:8081}
+              predicates:
+                - Path=/api/v1/lead-searches/**,/api/v1/search-jobs/**
+            - id: business-service
+              uri: ${BUSINESS_SERVICE_URL:http://localhost:8082}
+              predicates:
+                - Path=/api/v1/businesses/**
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

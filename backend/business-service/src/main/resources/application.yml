@@ -1,0 +1,17 @@
+server:
+  port: ${BUSINESS_SERVICE_PORT:8082}
+spring:
+  application:
+    name: business-service
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${BUSINESS_DB_NAME:aisales_businesses}
+    username: ${DB_USERNAME:aisales}
+    password: ${DB_PASSWORD:aisales_local}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+business-service:
+  internal-token: ${INTERNAL_SERVICE_TOKEN:local-dev-token}

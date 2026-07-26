@@ -1,0 +1,13 @@
+com/roslabs/aisales/businessservice/application/UpsertBusinessCommand.class
+com/roslabs/aisales/businessservice/domain/CanonicalBusiness.class
+com/roslabs/aisales/businessservice/application/BusinessApplicationService.class
+com/roslabs/aisales/businessservice/api/BusinessController$UpsertBusinessRequest.class
+com/roslabs/aisales/businessservice/configuration/BusinessServiceConfiguration.class
+com/roslabs/aisales/businessservice/infrastructure/SpringDataBusinessRepository.class
+com/roslabs/aisales/businessservice/application/BusinessRepository.class
+com/roslabs/aisales/businessservice/BusinessServiceApplication.class
+com/roslabs/aisales/businessservice/domain/BusinessStatus.class
+com/roslabs/aisales/businessservice/api/BusinessController.class
+com/roslabs/aisales/businessservice/infrastructure/BusinessRepositoryAdapter.class
+com/roslabs/aisales/businessservice/configuration/BusinessServiceProperties.class
+com/roslabs/aisales/businessservice/api/InternalTokenValidator.class

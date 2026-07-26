@@ -21,7 +21,9 @@ class LeadDiscoveryPropertiesBindingTest {
               "app.lead-discovery.geoapify-api-key=test-key",
               "app.lead-discovery.maximum-results-per-search=20",
               "app.lead-discovery.connection-timeout=5s",
-              "app.lead-discovery.read-timeout=5s");
+              "app.lead-discovery.read-timeout=5s",
+              "app.lead-discovery.geoapify-details-enrichment-enabled=true",
+              "app.lead-discovery.maximum-enrichment-requests-per-search=20");
 
   @Test
   void bindsKebabCaseGeoapifyApiKeyToRecordField() {
@@ -32,6 +34,8 @@ class LeadDiscoveryPropertiesBindingTest {
           assertThat(properties.maximumResultsPerSearch()).isEqualTo(20);
           assertThat(properties.connectionTimeout()).hasSeconds(5);
           assertThat(properties.readTimeout()).hasSeconds(5);
+          assertThat(properties.geoapifyDetailsEnrichmentEnabled()).isTrue();
+          assertThat(properties.maximumEnrichmentRequestsPerSearch()).isEqualTo(20);
         });
   }
 
@@ -50,6 +54,9 @@ class LeadDiscoveryPropertiesBindingTest {
             .orElseThrow(() -> new IllegalStateException("Lead discovery properties not bound"));
 
     assertThat(properties.geoapifyApiKey()).isEqualTo("env-test-key");
+    assertThat(properties.maximumResultsPerSearch()).isEqualTo(100);
+    assertThat(properties.geoapifyDetailsEnrichmentEnabled()).isTrue();
+    assertThat(properties.maximumEnrichmentRequestsPerSearch()).isEqualTo(20);
   }
 
   @Configuration

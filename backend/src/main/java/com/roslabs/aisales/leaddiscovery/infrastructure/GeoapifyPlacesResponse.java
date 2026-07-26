@@ -9,6 +9,7 @@ public record GeoapifyPlacesResponse(List<Feature> features) {
   public record Geometry(List<Double> coordinates) {}
 
   public record Properties(
+      @JsonProperty("feature_type") String featureType,
       @JsonProperty("place_id") String placeId,
       String name,
       List<String> categories,

@@ -1,0 +1,6 @@
+com/roslabs/aisales/common/domain/DomainEvent.class
+com/roslabs/aisales/common/domain/AuditMetadata.class
+com/roslabs/aisales/common/application/Result.class
+com/roslabs/aisales/common/application/ErrorDetail.class
+com/roslabs/aisales/common/application/Result$Success.class
+com/roslabs/aisales/common/application/Result$Failure.class

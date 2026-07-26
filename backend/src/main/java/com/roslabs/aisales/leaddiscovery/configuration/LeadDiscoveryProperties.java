@@ -8,4 +8,6 @@ public record LeadDiscoveryProperties(
     String geoapifyApiKey,
     int maximumResultsPerSearch,
     Duration connectionTimeout,
-    Duration readTimeout) {}
+    Duration readTimeout,
+    boolean geoapifyDetailsEnrichmentEnabled,
+    int maximumEnrichmentRequestsPerSearch) {}
