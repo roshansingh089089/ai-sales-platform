@@ -1,0 +1,25 @@
+{
+  "reportId": "1785015974697-3f745fc3-bcb5-4b31-bab1-dc188f1e5e4d",
+  "state": "BING_MAPS_LAUNCHER_READY",
+  "activated": false,
+  "popupUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "selectedLauncherText": "Open Bing Maps",
+  "role": "button",
+  "locatorStrategy": {
+    "strategy": "role",
+    "role": "button",
+    "value": "Open Bing Maps"
+  },
+  "screenshotPath": ".automation/screenshots/2026-07-25T21-46-17-518Z-full-page-1785015974697-3f745fc3-bcb5-4b31-bab1-dc188f1e5e4d-launcher-settled.png",
+  "sanitizedDomPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785015974697-3f745fc3-bcb5-4b31-bab1-dc188f1e5e4d-launcher.html",
+  "loadingDurationMs": 1110,
+  "stateSelectionEvidence": [
+    "Visible primary launcher matched Open Bing Maps",
+    "Launcher role=button",
+    "Stable locator strategy=role",
+    "Watch Tutorial was detected separately and excluded from primary selection"
+  ],
+  "provider": "mapsleads",
+  "createdAt": "2026-07-25T21:46:17.572Z",
+  "reportPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/mapsleads-launcher-dry-run-1785015974697-3f745fc3-bcb5-4b31-bab1-dc188f1e5e4d.json"
+}

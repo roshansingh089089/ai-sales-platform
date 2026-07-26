@@ -1,0 +1,264 @@
+{
+  "reportId": "1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846",
+  "classification": "MAPSLEADS_UNSUPPORTED_UI",
+  "capabilities": [
+    {
+      "capability": "QUERY_INPUT",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "LOCATION_INPUT",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "MAXIMUM_RESULTS_INPUT",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "SEARCH_BUTTON",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "SEARCH_LOADING_INDICATOR",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "RESULT_COUNT_INDICATOR",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "RESULTS_CONTAINER",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "EXPORT_BUTTON",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "LOGIN_REQUIRED",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "SUBSCRIPTION_REQUIRED",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    },
+    {
+      "capability": "PROVIDER_LOADING",
+      "found": false,
+      "visible": false,
+      "enabled": false,
+      "confidence": "LOW",
+      "matchCount": 0,
+      "safeForInteraction": false,
+      "supportingEvidence": []
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "banner Sign in b_header"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "complementary Account Rewards and Preferences Sign in id_h"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Settings and quick links id_sc idp_ham nohphbtop linkBtn"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Search Bing Maps roundedShape_t4d4o mediumSize_nLnBq transparentAppearance_SAZbb normalFont_cSriT button_OdmHt searchButton_WjLH9"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "combobox Search Bing Maps searchBoxInput searchbox searchBoxInput_jJZZz"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "region Map maplibregl-canvas"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Select Style style-picker-icon button common-button"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Traffic button common-button trafficToggle"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Locate Me common-button locateMeBtn"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Expand/Collapse Geochain geochainActionButton"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Zoom in button common-button zoom-in"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Zoom out button common-button zoom-out"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Rotate Right button common-button rotate-right"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Reset to Default Rotation button common-button rotate0"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Rotate Left button common-button rotate-left"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Increase Pitch button common-button increase-pitch"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Reset to Default Pitch button common-button pitch0"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Decrease Pitch button common-button decrease-pitch"
+    },
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "reason": "No credible MapsLeads provider evidence",
+      "evidence": "button Feedback Feedback fbpgbt roundedShape_t4d4o mediumSize_nLnBq secondaryAppearance_jDQX_ normalFont_cSriT button_OdmHt feedbackButton_RfhkE"
+    }
+  ],
+  "pageInventory": [
+    {
+      "surfaceType": "BROWSER_PAGE",
+      "url": "about:blank",
+      "title": ""
+    },
+    {
+      "surfaceType": "EXTENSION_PAGE",
+      "url": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+      "title": "__MSG_extensionName__"
+    },
+    {
+      "surfaceType": "BROWSER_PAGE",
+      "url": "https://mapsleads.net/",
+      "title": "Maps Scraper & Leads Extractor - Extract Business Info & Leads from Bing Maps | Maps Leads Generation"
+    },
+    {
+      "surfaceType": "BROWSER_PAGE",
+      "url": "https://www.bing.com/maps",
+      "title": "Bing Maps - Directions, trip planning, traffic cameras & more"
+    }
+  ],
+  "frameInventory": [
+    {
+      "surfaceType": "BING_MAPS_MAIN_PAGE",
+      "url": "https://www.bing.com/maps",
+      "accessible": true
+    },
+    {
+      "surfaceType": "IFRAME",
+      "url": "https://www.bing.com/identity/idtokenv2",
+      "accessible": true
+    }
+  ],
+  "screenshotPath": ".automation/screenshots/2026-07-26T19-02-21-448Z-full-page-1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846-mapsleads-surface.png",
+  "mainDomPath": ".automation/diagnostics/1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846-bing-maps.html",
+  "iframeDomPaths": [
+    ".automation/diagnostics/1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846-frame-0.html"
+  ],
+  "shadowDomSummaryPath": ".automation/diagnostics/1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846-shadow-summary.json",
+  "candidateInventoryPath": ".automation/diagnostics/1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846-candidates.json",
+  "timing": {
+    "startedAt": "2026-07-26T19:02:20.285Z",
+    "completedAt": "2026-07-26T19:02:21.593Z",
+    "durationMs": 1308,
+    "inspectionPasses": 2,
+    "domChanges": 0
+  },
+  "provider": "mapsleads",
+  "createdAt": "2026-07-26T19:02:21.594Z",
+  "reportPath": ".automation/diagnostics/mapsleads-surface-1785092540285-707e30cd-120c-4278-b3f5-32e823a9d846.json"
+}

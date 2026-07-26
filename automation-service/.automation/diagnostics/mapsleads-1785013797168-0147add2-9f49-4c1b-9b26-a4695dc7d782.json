@@ -1,0 +1,137 @@
+{
+  "reportId": "1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782",
+  "extension": {
+    "extensionId": "ghokiciomljbacchbkfhmnlmflbponlf",
+    "name": "__MSG_extensionName__",
+    "version": "12.6.1",
+    "manifestVersion": 3,
+    "path": "/Users/shristysingh/Library/Application Support/Google/Chrome/Profile 3/Extensions/ghokiciomljbacchbkfhmnlmflbponlf/12.6.1_0",
+    "loadStatus": "LOADED",
+    "healthy": true,
+    "popupPath": "popup.html",
+    "serviceWorkerPath": "background.93e42914.js",
+    "uiPath": "popup.html"
+  },
+  "browser": {
+    "version": "143.0.7499.4",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  "openedUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "popupUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "backgroundUrls": [],
+  "serviceWorkerUrls": [
+    "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/background.93e42914.js"
+  ],
+  "discoveredControls": [
+    {
+      "tag": "ul",
+      "role": "menubar",
+      "accessibleName": "MapsLeads.net",
+      "text": "MapsLeads.net",
+      "disabled": false,
+      "locatorCandidates": [
+        "getByRole(\"menubar\", { name: \"MapsLeads.net\" })",
+        "getByText(\"MapsLeads.net\")"
+      ]
+    },
+    {
+      "tag": "li",
+      "role": "menuitem",
+      "accessibleName": "MapsLeads.net",
+      "text": "MapsLeads.net",
+      "disabled": false,
+      "locatorCandidates": [
+        "getByRole(\"menuitem\", { name: \"MapsLeads.net\" })",
+        "getByText(\"MapsLeads.net\")"
+      ]
+    },
+    {
+      "tag": "a",
+      "role": "link",
+      "accessibleName": "MapsLeads.net",
+      "text": "MapsLeads.net",
+      "disabled": false,
+      "locatorCandidates": [
+        "getByRole(\"link\", { name: \"MapsLeads.net\" })",
+        "getByText(\"MapsLeads.net\")"
+      ]
+    }
+  ],
+  "locatorCandidates": [
+    "getByRole(\"menubar\", { name: \"MapsLeads.net\" })",
+    "getByText(\"MapsLeads.net\")",
+    "getByRole(\"menuitem\", { name: \"MapsLeads.net\" })",
+    "getByRole(\"link\", { name: \"MapsLeads.net\" })"
+  ],
+  "exportReadiness": {
+    "discoverable": false,
+    "candidates": []
+  },
+  "screenshotPaths": [
+    ".automation/screenshots/2026-07-25T21-09-57-256Z-viewport-1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782-before-extension-open.png",
+    ".automation/screenshots/2026-07-25T21-09-57-540Z-full-page-1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782-extension-ui.png",
+    ".automation/screenshots/2026-07-25T21-09-57-595Z-viewport-1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782-extension-ui.png"
+  ],
+  "domSnapshotPaths": [
+    "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782-extension.html"
+  ],
+  "accessibilitySnapshotPaths": [
+    "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782-accessibility.json"
+  ],
+  "health": {
+    "running": true,
+    "startedAt": "2026-07-25T21:09:56.921Z",
+    "uptimeMs": 788,
+    "memoryUsage": {
+      "rss": 85032960,
+      "heapTotal": 27574272,
+      "heapUsed": 22493768,
+      "external": 5109150,
+      "arrayBuffers": 141945
+    },
+    "profile": {
+      "profileDirectory": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/profiles/mapsleads",
+      "healthy": true,
+      "preferencesPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/profiles/mapsleads/runtime-preferences.json"
+    },
+    "extensions": {
+      "total": 1,
+      "loaded": 1,
+      "extensions": [
+        {
+          "extensionId": "ghokiciomljbacchbkfhmnlmflbponlf",
+          "name": "__MSG_extensionName__",
+          "version": "12.6.1",
+          "manifestVersion": 3,
+          "path": "/Users/shristysingh/Library/Application Support/Google/Chrome/Profile 3/Extensions/ghokiciomljbacchbkfhmnlmflbponlf/12.6.1_0",
+          "loadStatus": "LOADED",
+          "healthy": true,
+          "popupPath": "popup.html",
+          "serviceWorkerPath": "background.93e42914.js",
+          "uiPath": "popup.html"
+        }
+      ]
+    },
+    "tabs": {
+      "activeTabs": 2,
+      "trackedTabs": 2,
+      "orphanTabs": 0
+    },
+    "downloads": {
+      "downloadDirectory": ".automation/downloads",
+      "writable": true
+    },
+    "windows": {
+      "mode": "headed",
+      "headedDevelopmentSupported": true,
+      "headlessFutureSupported": true
+    }
+  },
+  "provider": "mapsleads",
+  "createdAt": "2026-07-25T21:09:57.709Z",
+  "reportPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/mapsleads-1785013797168-0147add2-9f49-4c1b-9b26-a4695dc7d782.json"
+}

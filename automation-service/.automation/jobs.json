@@ -1,0 +1,240 @@
+[
+  {
+    "automationJobId": "7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+    "searchJobId": "07e5dfaa-67a2-48f7-9eb7-fc4b212aaf7c",
+    "provider": "mapsleads",
+    "currentStep": "FAILED",
+    "currentStatus": "FAILED",
+    "retryCount": 0,
+    "attemptNumber": 1,
+    "createdAt": "2026-07-26T19:01:05.675Z",
+    "version": 2,
+    "correlationId": "phase-3.5-real-verification",
+    "transitions": [
+      {
+        "id": "3637ca96-5422-4d45-893f-6613ac0dff2e",
+        "automationJobId": "7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+        "fromStep": "CREATED",
+        "toStep": "CREATED",
+        "status": "PENDING",
+        "message": "Automation job created",
+        "createdAt": "2026-07-26T19:01:05.675Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "9e67fcc3-2f9b-4875-bebc-363419a8a809",
+        "automationJobId": "7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+        "fromStep": "CREATED",
+        "toStep": "BROWSER_STARTING",
+        "status": "RUNNING",
+        "message": "Acquiring browser session",
+        "createdAt": "2026-07-26T19:01:05.677Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "885561cb-c20d-40b5-a7ba-e20deed20817",
+        "automationJobId": "7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+        "fromStep": "BROWSER_STARTING",
+        "toStep": "FAILED",
+        "status": "FAILED",
+        "message": "Lead service status update failed: 500",
+        "createdAt": "2026-07-26T19:01:05.725Z",
+        "correlationId": "phase-3.5-real-verification"
+      }
+    ],
+    "startedAt": "2026-07-26T19:01:05.677Z",
+    "failureCode": "AUTOMATION_ERROR",
+    "failureMessage": "Lead service status update failed: 500",
+    "completedAt": "2026-07-26T19:01:05.725Z"
+  },
+  {
+    "automationJobId": "f2b8d250-9400-4ab5-a828-8446c2d86d49",
+    "searchJobId": "07e5dfaa-67a2-48f7-9eb7-fc4b212aaf7c",
+    "provider": "mapsleads",
+    "currentStep": "FAILED",
+    "currentStatus": "FAILED",
+    "retryCount": 0,
+    "attemptNumber": 2,
+    "retryOfAutomationJobId": "7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+    "retryRequestKey": "automatic:7a96f71f-6675-4a66-85a2-6d526e5bf6ff",
+    "createdAt": "2026-07-26T19:01:05.727Z",
+    "version": 2,
+    "correlationId": "phase-3.5-real-verification",
+    "transitions": [
+      {
+        "id": "431c28ca-529a-4105-ad33-37fbb4d33f79",
+        "automationJobId": "f2b8d250-9400-4ab5-a828-8446c2d86d49",
+        "fromStep": "CREATED",
+        "toStep": "CREATED",
+        "status": "PENDING",
+        "message": "Automation job created",
+        "createdAt": "2026-07-26T19:01:05.727Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "c4c42050-82dd-4039-a8c5-1c4a807a9504",
+        "automationJobId": "f2b8d250-9400-4ab5-a828-8446c2d86d49",
+        "fromStep": "CREATED",
+        "toStep": "BROWSER_STARTING",
+        "status": "RUNNING",
+        "message": "Acquiring browser session",
+        "createdAt": "2026-07-26T19:01:06.228Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "c70d23e1-2f7a-465b-bf4e-3676deca3f12",
+        "automationJobId": "f2b8d250-9400-4ab5-a828-8446c2d86d49",
+        "fromStep": "BROWSER_STARTING",
+        "toStep": "FAILED",
+        "status": "FAILED",
+        "message": "Lead service status update failed: 500",
+        "createdAt": "2026-07-26T19:01:06.252Z",
+        "correlationId": "phase-3.5-real-verification"
+      }
+    ],
+    "startedAt": "2026-07-26T19:01:06.228Z",
+    "failureCode": "AUTOMATION_ERROR",
+    "failureMessage": "Lead service status update failed: 500",
+    "completedAt": "2026-07-26T19:01:06.252Z"
+  },
+  {
+    "automationJobId": "a178414d-7d9e-4ab4-a780-bd6a7b277c42",
+    "searchJobId": "07e5dfaa-67a2-48f7-9eb7-fc4b212aaf7c",
+    "provider": "mapsleads",
+    "currentStep": "FAILED",
+    "currentStatus": "FAILED",
+    "retryCount": 0,
+    "attemptNumber": 3,
+    "retryOfAutomationJobId": "f2b8d250-9400-4ab5-a828-8446c2d86d49",
+    "retryRequestKey": "automatic:f2b8d250-9400-4ab5-a828-8446c2d86d49",
+    "createdAt": "2026-07-26T19:01:06.253Z",
+    "version": 2,
+    "correlationId": "phase-3.5-real-verification",
+    "transitions": [
+      {
+        "id": "a1818d2d-3a53-458d-91d2-3173324f818e",
+        "automationJobId": "a178414d-7d9e-4ab4-a780-bd6a7b277c42",
+        "fromStep": "CREATED",
+        "toStep": "CREATED",
+        "status": "PENDING",
+        "message": "Automation job created",
+        "createdAt": "2026-07-26T19:01:06.253Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "4de02f25-18c0-4e72-b569-067b9c07a857",
+        "automationJobId": "a178414d-7d9e-4ab4-a780-bd6a7b277c42",
+        "fromStep": "CREATED",
+        "toStep": "BROWSER_STARTING",
+        "status": "RUNNING",
+        "message": "Acquiring browser session",
+        "createdAt": "2026-07-26T19:01:07.255Z",
+        "correlationId": "phase-3.5-real-verification"
+      },
+      {
+        "id": "753e686d-d0d1-42bc-b812-281567c66f9c",
+        "automationJobId": "a178414d-7d9e-4ab4-a780-bd6a7b277c42",
+        "fromStep": "BROWSER_STARTING",
+        "toStep": "FAILED",
+        "status": "FAILED",
+        "message": "Lead service status update failed: 500",
+        "createdAt": "2026-07-26T19:01:07.286Z",
+        "correlationId": "phase-3.5-real-verification"
+      }
+    ],
+    "startedAt": "2026-07-26T19:01:07.255Z",
+    "failureCode": "AUTOMATION_ERROR",
+    "failureMessage": "Lead service status update failed: 500",
+    "completedAt": "2026-07-26T19:01:07.286Z"
+  },
+  {
+    "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+    "searchJobId": "07e5dfaa-67a2-48f7-9eb7-fc4b212aaf7c",
+    "provider": "mapsleads",
+    "currentStep": "FAILED",
+    "currentStatus": "FAILED",
+    "retryCount": 0,
+    "attemptNumber": 4,
+    "retryOfAutomationJobId": "a178414d-7d9e-4ab4-a780-bd6a7b277c42",
+    "retryRequestKey": "phase-3.5-callback-retry",
+    "createdAt": "2026-07-26T19:02:15.634Z",
+    "version": 6,
+    "correlationId": "phase-3.5-real-verification-browser",
+    "transitions": [
+      {
+        "id": "5de8df5d-8475-4c37-ad89-f27cf1fb85df",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "CREATED",
+        "toStep": "CREATED",
+        "status": "PENDING",
+        "message": "Automation job created",
+        "createdAt": "2026-07-26T19:02:15.634Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "51534382-6399-4041-8d93-52c3b79fe49f",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "CREATED",
+        "toStep": "BROWSER_STARTING",
+        "status": "RUNNING",
+        "message": "Acquiring browser session",
+        "createdAt": "2026-07-26T19:02:15.635Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "24a668b4-5747-4fd0-aac9-57afa25fc7e1",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "BROWSER_STARTING",
+        "toStep": "SESSION_LOADING",
+        "status": "RUNNING",
+        "message": "Restoring provider session",
+        "createdAt": "2026-07-26T19:02:15.654Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "352becfd-0b8b-422d-9c97-3e860e2adbb1",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "SESSION_LOADING",
+        "toStep": "PROVIDER_INITIALIZING",
+        "status": "RUNNING",
+        "message": "Initializing provider",
+        "createdAt": "2026-07-26T19:02:15.655Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "f43010fd-bd09-4aab-b496-728c4ffb8ee0",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "PROVIDER_INITIALIZING",
+        "toStep": "BING_MAPS_LAUNCHER_READY",
+        "status": "RUNNING",
+        "message": "MapsLeads extension popup is ready and the Bing Maps launcher is available",
+        "createdAt": "2026-07-26T19:02:18.074Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "2804ff08-a2aa-40cb-b316-103c16d1eaa7",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "BING_MAPS_LAUNCHER_READY",
+        "toStep": "BING_MAPS_READY",
+        "status": "RUNNING",
+        "message": "Bing Maps opened and passed readiness verification",
+        "createdAt": "2026-07-26T19:02:20.284Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      },
+      {
+        "id": "b850d46e-3938-46a5-952c-ca0de2af273c",
+        "automationJobId": "160c83ee-fe87-4bc9-aaf9-306b3298e6f6",
+        "fromStep": "BING_MAPS_READY",
+        "toStep": "FAILED",
+        "status": "FAILED",
+        "message": "MapsLeads interface is unsupported or has changed",
+        "createdAt": "2026-07-26T19:02:21.688Z",
+        "correlationId": "phase-3.5-real-verification-browser"
+      }
+    ],
+    "startedAt": "2026-07-26T19:02:15.635Z",
+    "failureCode": "NON_RETRYABLE_BROWSER_INTERACTION",
+    "failureMessage": "MapsLeads interface is unsupported or has changed",
+    "completedAt": "2026-07-26T19:02:21.688Z"
+  }
+]

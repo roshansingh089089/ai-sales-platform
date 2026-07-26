@@ -1,0 +1,20 @@
+{
+  "reportId": "1785014911343-20501ae4-1d52-4830-9fd9-037562729020",
+  "status": "UNSUPPORTED_UI",
+  "popupState": "UNSUPPORTED_UI",
+  "submitted": false,
+  "validation": {
+    "queryVisible": false,
+    "locationVisible": false,
+    "valuesMatch": false,
+    "searchButtonVisible": false,
+    "searchButtonEnabled": false
+  },
+  "selectedLocatorEvidence": {},
+  "failureReason": "Unsupported popup UI: missing query input, location input, search button",
+  "screenshotBefore": ".automation/screenshots/2026-07-25T21-28-33-069Z-full-page-1785014911343-20501ae4-1d52-4830-9fd9-037562729020-dry-run-before.png",
+  "sanitizedDomPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785014911343-20501ae4-1d52-4830-9fd9-037562729020-dry-run.html",
+  "provider": "mapsleads",
+  "createdAt": "2026-07-25T21:28:33.165Z",
+  "reportPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/mapsleads-dry-run-1785014911343-20501ae4-1d52-4830-9fd9-037562729020.json"
+}

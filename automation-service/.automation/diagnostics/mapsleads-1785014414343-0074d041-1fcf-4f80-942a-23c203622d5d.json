@@ -1,0 +1,116 @@
+{
+  "reportId": "1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d",
+  "extension": {
+    "extensionId": "ghokiciomljbacchbkfhmnlmflbponlf",
+    "name": "Maps Scraper & Leads Extractor - MapsLeads",
+    "rawName": "__MSG_extensionName__",
+    "defaultLocale": "en",
+    "version": "12.6.1",
+    "manifestVersion": 3,
+    "path": "/Users/shristysingh/Library/Application Support/Google/Chrome/Profile 3/Extensions/ghokiciomljbacchbkfhmnlmflbponlf/12.6.1_0",
+    "loadStatus": "LOADED",
+    "healthy": true,
+    "popupPath": "popup.html",
+    "serviceWorkerPath": "background.93e42914.js",
+    "uiPath": "popup.html"
+  },
+  "browser": {
+    "version": "143.0.7499.4",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  "openedUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "popupUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "backgroundUrls": [],
+  "serviceWorkerUrls": [
+    "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/background.93e42914.js"
+  ],
+  "discoveredControls": [],
+  "locatorCandidates": [],
+  "exportReadiness": {
+    "discoverable": false,
+    "candidates": []
+  },
+  "screenshotPaths": [
+    ".automation/screenshots/2026-07-25T21-20-14-564Z-viewport-1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-before-extension-open.png",
+    ".automation/screenshots/2026-07-25T21-20-14-860Z-full-page-1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-extension-ui.png",
+    ".automation/screenshots/2026-07-25T21-20-14-925Z-viewport-1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-extension-ui.png"
+  ],
+  "domSnapshotPaths": [
+    "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-extension.html"
+  ],
+  "accessibilitySnapshotPaths": [
+    "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-accessibility.json"
+  ],
+  "visibleControlsInventoryPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d-visible-controls.json",
+  "popupInspection": {
+    "state": "UNSUPPORTED_UI",
+    "visibleControls": {
+      "queryInput": [],
+      "locationInput": [],
+      "startButton": [],
+      "exportButton": [],
+      "resultCount": [],
+      "loginControl": [],
+      "accountIndicator": []
+    },
+    "locatorEvidence": []
+  },
+  "health": {
+    "running": true,
+    "startedAt": "2026-07-25T21:20:14.043Z",
+    "uptimeMs": 940,
+    "memoryUsage": {
+      "rss": 74055680,
+      "heapTotal": 28622848,
+      "heapUsed": 24292288,
+      "external": 5302934,
+      "arrayBuffers": 335769
+    },
+    "profile": {
+      "profileDirectory": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/profiles/mapsleads",
+      "healthy": true,
+      "preferencesPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/profiles/mapsleads/runtime-preferences.json"
+    },
+    "extensions": {
+      "total": 1,
+      "loaded": 1,
+      "extensions": [
+        {
+          "extensionId": "ghokiciomljbacchbkfhmnlmflbponlf",
+          "name": "Maps Scraper & Leads Extractor - MapsLeads",
+          "rawName": "__MSG_extensionName__",
+          "defaultLocale": "en",
+          "version": "12.6.1",
+          "manifestVersion": 3,
+          "path": "/Users/shristysingh/Library/Application Support/Google/Chrome/Profile 3/Extensions/ghokiciomljbacchbkfhmnlmflbponlf/12.6.1_0",
+          "loadStatus": "LOADED",
+          "healthy": true,
+          "popupPath": "popup.html",
+          "serviceWorkerPath": "background.93e42914.js",
+          "uiPath": "popup.html"
+        }
+      ]
+    },
+    "tabs": {
+      "activeTabs": 3,
+      "trackedTabs": 3,
+      "orphanTabs": 0
+    },
+    "downloads": {
+      "downloadDirectory": ".automation/downloads",
+      "writable": true
+    },
+    "windows": {
+      "mode": "headed",
+      "headedDevelopmentSupported": true,
+      "headlessFutureSupported": true
+    }
+  },
+  "provider": "mapsleads",
+  "createdAt": "2026-07-25T21:20:14.983Z",
+  "reportPath": "/Users/shristysingh/Documents/Development/AI-Projects/ai-sales-platform/automation-service/.automation/diagnostics/mapsleads-1785014414343-0074d041-1fcf-4f80-942a-23c203622d5d.json"
+}

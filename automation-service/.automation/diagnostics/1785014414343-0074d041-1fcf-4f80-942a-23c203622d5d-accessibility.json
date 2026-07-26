@@ -1,0 +1,942 @@
+[
+  {
+    "nodeId": "2",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "RootWebArea"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 144
+    },
+    "name": {
+      "type": "computedString",
+      "value": "__MSG_extensionName__",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label",
+          "superseded": true
+        },
+        {
+          "type": "relatedElement",
+          "value": {
+            "type": "computedString",
+            "value": "__MSG_extensionName__"
+          },
+          "nativeSource": "title"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "focused",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "url",
+        "value": {
+          "type": "string",
+          "value": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html"
+        }
+      }
+    ],
+    "childIds": [
+      "6"
+    ],
+    "backendDOMNodeId": 2,
+    "frameId": "30DDA18E15081CCCB60CC809C86B1E85"
+  },
+  {
+    "nodeId": "6",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "2",
+    "childIds": [
+      "17"
+    ],
+    "backendDOMNodeId": 6
+  },
+  {
+    "nodeId": "17",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "6",
+    "childIds": [
+      "18"
+    ],
+    "backendDOMNodeId": 17
+  },
+  {
+    "nodeId": "18",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 88
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "17",
+    "childIds": [
+      "19"
+    ],
+    "backendDOMNodeId": 18
+  },
+  {
+    "nodeId": "19",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 211
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "18",
+    "childIds": [
+      "20",
+      "26"
+    ],
+    "backendDOMNodeId": 19
+  },
+  {
+    "nodeId": "20",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "sectionheader"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 95
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "19",
+    "childIds": [
+      "21"
+    ],
+    "backendDOMNodeId": 20
+  },
+  {
+    "nodeId": "26",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 211
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "19",
+    "childIds": [
+      "27"
+    ],
+    "backendDOMNodeId": 26
+  },
+  {
+    "nodeId": "21",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "20",
+    "childIds": [
+      "3"
+    ],
+    "backendDOMNodeId": 21
+  },
+  {
+    "nodeId": "3",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "menubar"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 123
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "orientation",
+        "value": {
+          "type": "token",
+          "value": "horizontal"
+        }
+      }
+    ],
+    "parentId": "21",
+    "childIds": [
+      "4",
+      "25"
+    ],
+    "backendDOMNodeId": 3
+  },
+  {
+    "nodeId": "27",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "main"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 118
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "26",
+    "childIds": [
+      "28"
+    ],
+    "backendDOMNodeId": 27
+  },
+  {
+    "nodeId": "4",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "menuitem"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 124
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "MapsLeads.net"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "3",
+    "childIds": [
+      "22"
+    ],
+    "backendDOMNodeId": 4
+  },
+  {
+    "nodeId": "25",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 88
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "3",
+    "childIds": [],
+    "backendDOMNodeId": 25
+  },
+  {
+    "nodeId": "28",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "27",
+    "childIds": [
+      "29",
+      "30",
+      "32"
+    ],
+    "backendDOMNodeId": 28
+  },
+  {
+    "nodeId": "29",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "28",
+    "childIds": [],
+    "backendDOMNodeId": 29
+  },
+  {
+    "nodeId": "30",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 88
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "28",
+    "childIds": [
+      "31"
+    ],
+    "backendDOMNodeId": 30
+  },
+  {
+    "nodeId": "32",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "generic"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 88
+    },
+    "name": {
+      "type": "computedString",
+      "value": "",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "28",
+    "childIds": [
+      "37",
+      "5"
+    ],
+    "backendDOMNodeId": 32
+  },
+  {
+    "nodeId": "22",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "4",
+    "childIds": [
+      "23",
+      "24"
+    ],
+    "backendDOMNodeId": 22
+  },
+  {
+    "nodeId": "23",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "emptyAlt",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "22",
+    "childIds": [],
+    "backendDOMNodeId": 23
+  },
+  {
+    "nodeId": "24",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "22",
+    "childIds": [
+      "35"
+    ],
+    "backendDOMNodeId": 24
+  },
+  {
+    "nodeId": "35",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "StaticText"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 158
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net",
+      "sources": [
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "MapsLeads.net"
+          }
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "24",
+    "childIds": [
+      "-1000000002"
+    ],
+    "backendDOMNodeId": 35
+  },
+  {
+    "nodeId": "31",
+    "ignored": true,
+    "ignoredReasons": [
+      {
+        "name": "uninteresting",
+        "value": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ],
+    "role": {
+      "type": "role",
+      "value": "none"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 0
+    },
+    "parentId": "30",
+    "childIds": [
+      "36"
+    ],
+    "backendDOMNodeId": 31
+  },
+  {
+    "nodeId": "36",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "StaticText"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 158
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Loading...",
+      "sources": [
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "Loading..."
+          }
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "31",
+    "childIds": [
+      "-1000000003"
+    ],
+    "backendDOMNodeId": 36
+  },
+  {
+    "nodeId": "37",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "StaticText"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 158
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Powered by ",
+      "sources": [
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "Powered by "
+          }
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "32",
+    "childIds": [
+      "-1000000004"
+    ],
+    "backendDOMNodeId": 37
+  },
+  {
+    "nodeId": "5",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "link"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 110
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "MapsLeads.net"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "url",
+        "value": {
+          "type": "string",
+          "value": "https://mapsleads.net/"
+        }
+      }
+    ],
+    "parentId": "32",
+    "childIds": [
+      "38"
+    ],
+    "backendDOMNodeId": 5
+  },
+  {
+    "nodeId": "-1000000002",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "InlineTextBox"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 101
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net"
+    },
+    "properties": [],
+    "parentId": "35",
+    "childIds": []
+  },
+  {
+    "nodeId": "-1000000003",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "InlineTextBox"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 101
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Loading..."
+    },
+    "properties": [],
+    "parentId": "36",
+    "childIds": []
+  },
+  {
+    "nodeId": "-1000000004",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "InlineTextBox"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 101
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Powered by "
+    },
+    "properties": [],
+    "parentId": "37",
+    "childIds": []
+  },
+  {
+    "nodeId": "38",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "StaticText"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 158
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net",
+      "sources": [
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "MapsLeads.net"
+          }
+        }
+      ]
+    },
+    "properties": [],
+    "parentId": "5",
+    "childIds": [
+      "-1000000005"
+    ],
+    "backendDOMNodeId": 38
+  },
+  {
+    "nodeId": "-1000000005",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "InlineTextBox"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 101
+    },
+    "name": {
+      "type": "computedString",
+      "value": "MapsLeads.net"
+    },
+    "properties": [],
+    "parentId": "38",
+    "childIds": []
+  }
+]

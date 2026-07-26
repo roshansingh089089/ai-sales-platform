@@ -1,0 +1,13 @@
+{
+  "state": "UNSUPPORTED_UI",
+  "visibleControls": {
+    "queryInput": [],
+    "locationInput": [],
+    "startButton": [],
+    "exportButton": [],
+    "resultCount": [],
+    "loginControl": [],
+    "accountIndicator": []
+  },
+  "locatorEvidence": []
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "banner",
+    "text": "Sign in",
+    "id": "b_header",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "complementary",
+    "name": "Account Rewards and Preferences",
+    "text": "Sign in",
+    "id": "id_h",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Settings and quick links",
+    "text": "",
+    "id": "id_sc",
+    "className": "idp_ham nohphbtop linkBtn",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Search Bing Maps",
+    "text": "",
+    "className": "roundedShape_t4d4o mediumSize_nLnBq transparentAppearance_SAZbb normalFont_cSriT button_OdmHt searchButton_WjLH9",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "combobox",
+    "text": "",
+    "placeholder": "Search Bing Maps",
+    "id": "searchBoxInput",
+    "elementName": "searchbox",
+    "className": "searchBoxInput_jJZZz",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "region",
+    "name": "Map",
+    "text": "",
+    "className": "maplibregl-canvas",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Select Style",
+    "text": "",
+    "id": "style-picker-icon",
+    "type": "button",
+    "className": "common-button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Traffic",
+    "text": "",
+    "type": "button",
+    "className": "common-button trafficToggle",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Locate Me",
+    "text": "",
+    "className": "common-button locateMeBtn",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Expand/Collapse Geochain",
+    "text": "",
+    "className": "geochainActionButton",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Zoom in",
+    "text": "",
+    "type": "button",
+    "className": "common-button zoom-in",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Zoom out",
+    "text": "",
+    "type": "button",
+    "className": "common-button zoom-out",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Rotate Right",
+    "text": "",
+    "type": "button",
+    "className": "common-button rotate-right",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Reset to Default Rotation",
+    "text": "",
+    "type": "button",
+    "className": "common-button rotate0",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Rotate Left",
+    "text": "",
+    "type": "button",
+    "className": "common-button rotate-left",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Increase Pitch",
+    "text": "",
+    "type": "button",
+    "className": "common-button increase-pitch",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Reset to Default Pitch",
+    "text": "",
+    "type": "button",
+    "className": "common-button pitch0",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Decrease Pitch",
+    "text": "",
+    "type": "button",
+    "className": "common-button decrease-pitch",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "BING_MAPS_MAIN_PAGE",
+    "frameUrl": "https://www.bing.com/maps",
+    "role": "button",
+    "name": "Feedback",
+    "text": "Feedback",
+    "id": "fbpgbt",
+    "className": "roundedShape_t4d4o mediumSize_nLnBq secondaryAppearance_jDQX_ normalFont_cSriT button_OdmHt feedbackButton_RfhkE",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "menubar",
+    "text": "MapsLeads.net",
+    "className": "el-menu el-menu--horizontal",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "menuitem",
+    "text": "MapsLeads.net",
+    "className": "el-menu-item is-disabled non-disable",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "menuitem",
+    "text": "",
+    "className": "el-menu-item is-active",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "menuitem",
+    "text": "",
+    "className": "el-menu-item",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "menuitem",
+    "text": "",
+    "className": "el-menu-item",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "button",
+    "text": "Open Bing Maps",
+    "type": "button",
+    "className": "el-button el-button--primary btn go-maps-btn",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "surfaceType": "EXTENSION_PAGE",
+    "frameUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+    "role": "button",
+    "text": "Watch Tutorial",
+    "type": "button",
+    "className": "el-button btn go-maps-btn",
+    "visible": true,
+    "enabled": true
+  }
+]

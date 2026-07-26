@@ -1,0 +1,20 @@
+{
+  "reportId": "1785092535655-d1a91864-4c0c-4b09-968f-8ce0b3f49c1b",
+  "state": "BING_MAPS_READY",
+  "clickAttempted": true,
+  "clickCount": 1,
+  "transitionType": "NEW_TAB",
+  "popupUrl": "chrome-extension://ghokiciomljbacchbkfhmnlmflbponlf/popup.html",
+  "url": "https://www.bing.com/maps?cp=12.978609%7E77.364021&lvl=4&style=r",
+  "title": "Bing Maps - Directions, trip planning, traffic cameras & more",
+  "screenshotPath": ".automation/screenshots/2026-07-26T19-02-19-506Z-full-page-1785092535655-d1a91864-4c0c-4b09-968f-8ce0b3f49c1b-bing-maps-ready.png",
+  "sanitizedDomPath": ".automation/diagnostics/1785092535655-d1a91864-4c0c-4b09-968f-8ce0b3f49c1b-bing-maps.html",
+  "tabs": {
+    "activeTabs": 4,
+    "trackedTabs": 4,
+    "orphanTabs": 0
+  },
+  "provider": "mapsleads",
+  "createdAt": "2026-07-26T19:02:20.284Z",
+  "reportPath": ".automation/diagnostics/mapsleads-bing-maps-launch-1785092535655-d1a91864-4c0c-4b09-968f-8ce0b3f49c1b.json"
+}
